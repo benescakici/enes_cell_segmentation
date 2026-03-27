@@ -1,0 +1,18 @@
+# Core dependencies
+numpy==1.24.3
+matplotlib==3.7.2
+scikit-image==0.18.3
+opencv-python==4.8.0.76
+Pillow==10.0.0
+scipy>=1.10.0
+
+# Image processing and segmentation
+imageio==2.37.2
+cellpose==3.0.5
+
+# Deep learning
+torch==2.0.1
+
+# Jupyter notebook
+jupyter==1.0.0
+ipykernel==6.25.0
