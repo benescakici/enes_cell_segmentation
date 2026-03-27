@@ -48,14 +48,13 @@ jupyter notebook cell_segmentation_demo.ipynb
 ├── notebooks/
 │   └── cell_segmentation_demo.ipynb   # Main demo notebook
 ├── scripts/                       # Utility scripts
-├── models/                        # Trained/pretrained models
 ├── requirements.txt               # Python dependencies
 └── README.md
 ```
 
 ## Notebooks
 
-- **cell_segmentation_demo.ipynb**: Main demo showing:
+- **cell_segmentation_demo.ipynb**:
   - Data loading and visualization
   - CellPose model predictions
   - Evaluation metrics (IoU, Dice)
@@ -65,8 +64,6 @@ jupyter notebook cell_segmentation_demo.ipynb
 
 - Python 3.9 or higher
 - All dependencies listed in `requirements.txt`
-- ~2GB disk space for model downloads (CellPose)
-- Optional: GPU support (CUDA/cuDNN for faster inference)
 
 ## Reproducibility
 
